@@ -34,6 +34,12 @@ p {
 .navDiv{
   height: 10rem;
 }
+/* .inicioCont{
+  background-color: rgba(132, 14, 161, 0.705);
+  border-radius: 8px;
+  width: 50%;
+  margin-top: 2%;
+} */
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;

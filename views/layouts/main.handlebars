@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Impresión en gran formato, Vinil Brillante, Front y Backlite.">
+    <meta name="keywords"
+        content="Impresión, vinil, backlite">
+    <title>IDM SERAG</title>
+    <link rel="shortcut icon" href="assets/images/logoIdm.png">
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body class="fontIdm">
 
+    <nav class="white navDiv" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="/" class="brand-logo"><img src="/assets/images/logoIdm.png" alt="logoIdm" class="imageLogo"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/animacion">Animación</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/animacion">Animación</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
     <div class="bodyPrincipal">
         {{{body}}}
     </div>
-    
+
     <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="/assets/js/materialize.js"></script>
-  <script src="/assets/js/init.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/assets/js/materialize.js"></script>
+    <script src="/assets/js/init.js"></script>
 </body>
 
 </html>
