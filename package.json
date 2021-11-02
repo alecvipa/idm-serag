@@ -1,0 +1,26 @@
+{
+  "name": "idm-serag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecvipa/idm-serag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alecvipa/idm-serag/issues"
+  },
+  "homepage": "https://github.com/alecvipa/idm-serag#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "nodemailer": "^6.7.0"
+  }
+}
