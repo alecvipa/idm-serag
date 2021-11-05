@@ -34,6 +34,9 @@ p {
 .navDiv{
   height: 10rem;
 }
+.titleServicios{
+  text-align: center;
+}
 /* .inicioCont{
   background-color: rgba(132, 14, 161, 0.705);
   border-radius: 8px;
@@ -50,6 +53,9 @@ p {
   }
   .headerBanner1{
     margin-top: -15%;
+  }
+  .titleEspecialistas, .titleServicios{
+    font-size: 3rem;
   }
 }
 
