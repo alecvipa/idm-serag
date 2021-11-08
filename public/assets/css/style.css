@@ -10,6 +10,9 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
+.centered{
+  text-align: center;
+}
 
 p {
   line-height: 2rem;
@@ -37,6 +40,14 @@ p {
 .titleServicios{
   text-align: center;
 }
+.titleServicios1{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 7px !important;
+}
+.divServicios2{
+  height: 30rem;
+}
 /* .inicioCont{
   background-color: rgba(132, 14, 161, 0.705);
   border-radius: 8px;
@@ -56,6 +67,9 @@ p {
   }
   .titleEspecialistas, .titleServicios{
     font-size: 3rem;
+  }
+  .divServicios2{
+    height: 10rem;
   }
 }
 
