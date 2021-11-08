@@ -48,6 +48,19 @@ p {
 .divServicios2{
   height: 30rem;
 }
+.carrru{
+  margin-top: -22% !important;
+}
+.pinturasBgDiv{
+  height: 15rem;
+  background-image: url("/assets/images/pinturas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: 0s linear;
+  background-position: 25% 85%;
+}
 /* .inicioCont{
   background-color: rgba(132, 14, 161, 0.705);
   border-radius: 8px;
@@ -70,6 +83,10 @@ p {
   }
   .divServicios2{
     height: 10rem;
+  }
+  .carrru{
+    margin-top: -30% !important;
+    margin-bottom: -20% !important;
   }
 }
 
