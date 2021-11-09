@@ -13,6 +13,9 @@ nav .brand-logo {
 .centered{
   text-align: center;
 }
+.boldL{
+  font-weight: bold;
+}
 
 p {
   line-height: 2rem;
@@ -61,6 +64,32 @@ p {
   transition: 0s linear;
   background-position: 25% 85%;
 }
+.bannerPrivacidad{
+  height: 15rem;
+  background-image: url("/assets/images/coloresMaquina.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: 0s linear;
+  background-position: 25% 85%;
+}
+.overlayPrivacidad{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.avisoPrivacidadTitle{
+  margin-top: 10%;
+  font-weight: bolder;
+}
+.avisoDiv{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.animacionDiv{
+  margin-top: 3%;
+}
 /* .inicioCont{
   background-color: rgba(132, 14, 161, 0.705);
   border-radius: 8px;
@@ -87,6 +116,9 @@ p {
   .carrru{
     margin-top: -30% !important;
     margin-bottom: -20% !important;
+  }
+  .avisoPrivacidadTitle{
+    font-size: 1.5rem !important;
   }
 }
 
