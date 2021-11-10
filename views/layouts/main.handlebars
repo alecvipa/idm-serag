@@ -13,6 +13,29 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script>
+        function submitEmailForm(form) {
+           
+            var obj = new XMLHttpRequest();
+            obj.onreadystatechange = function () {
+                if (obj.readyState == 4) {
+                    if (obj.status == 200) {
+                        var res = JSON.parse(obj.responseText);
+                        alert(res.message);
+                    }
+                    else {
+                        console.log("XMLHttp status " + obj.status + ": " + obj.statusText);
+                    }
+                }
+            };
+            obj.open("post", form.action, true);
+            obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, message: form.message.value}));
+            alert("¡En breve te contactaremos!");
+            $(".formInput").val(" ");
+            return false;
+        }
+    </script>
 </head>
 
 <body class="fontIdm">
