@@ -4,18 +4,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Impresión en gran formato, Vinil Brillante, Front y Backlite.">
-    <meta name="keywords" content="Impresión, vinil, backlite, Publicidad impresa, Medios impresos, Stoppers, espectaculares, Valla publicitarias, Material pop, Banners, Lonas, Viniles, Imprenta, Cenefa, Mupi, Posters, Danglers, Standees, Mantas, Faldones, Signs, Anuncios espectaculares, Anuncios impresos, Precio de espectaculares, Medios masivos">
+    <meta name="description" content="IMPRESOS DIGITALES DE MEXICO">
+    <meta name="keywords"
+        content="Impresión, vinil, backlite, Publicidad impresa, Medios impresos, Stoppers, espectaculares, Valla publicitarias, Material pop, Banners, Lonas, Viniles, Imprenta, Cenefa, Mupi, Posters, Danglers, Standees, Mantas, Faldones, Signs, Anuncios espectaculares, Anuncios impresos, Precio de espectaculares, Medios masivos">
     <title>IDM SERAG</title>
     <link rel="shortcut icon" href="assets/images/logoIdm.png">
-
+    <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <script>
         function submitEmailForm(form) {
-           
+
             var obj = new XMLHttpRequest();
             obj.onreadystatechange = function () {
                 if (obj.readyState == 4) {
@@ -30,7 +34,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, message: form.message.value}));
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -38,7 +42,7 @@
     </script>
 </head>
 
-<body class="fontIdm">
+<body class="fontGlobal">
 
     <nav class="white navDiv" role="navigation">
         <div class="nav-wrapper container">
@@ -64,6 +68,21 @@
     </nav>
 
     <div class="bodyPrincipal">
+
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large green"
+                href="https://api.whatsapp.com/send?phone=525581809928&text=Hola, Me gustaría recibir información de IDM-SERAG"
+                target="_blank">
+
+                <i class="large fab fa-whatsapp"></i>
+            </a>
+            {{!-- <ul>
+                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul> --}}
+        </div>
         {{{body}}}
     </div>
 
@@ -100,6 +119,20 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="/assets/js/materialize.js"></script>
     <script src="/assets/js/init.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('.fixed-action-btn').floatingActionButton();
+        });
+
+    </script>
 </body>
 
 </html>
