@@ -1,25 +1,8 @@
 <div class="inicioDiv">
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container inicioCont">
-                <br><br>
-                <h1 class="header center teal-text text-lighten-2">IDM Serag</h1>
-                <div class="row center">
-                    <h5 class="header col s12 light">Impresión en gran formato, Vinil Brillante, Front y Backlite.
-                    </h5>
-                </div>
-                <div class="row center">
-                    <a href="https://api.whatsapp.com/send?phone=+525569601278" target="_blank" id="download-button"
-                        class="btn-large waves-effect waves-light teal lighten-1">Contáctanos por whatsapp</a>
-                </div>
-                <br><br>
 
-            </div>
-        </div>
-        <div class="parallax"><img src="/assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="idmBanner">
+
     </div>
-
-    <br> <br>
     <div class="container">
         <div class="section">
             <div class="row">
@@ -73,33 +56,23 @@
                         en impresión digital, gran formato, HD, 3D y personalización de productos.
                         <br> <br>
                         Descubre el Poder de la Transformación Creativa para tu Empresa. ¡Contactanos y da vida a tus
-                        proyectos empresariales! <br> <hr>
+                        proyectos empresariales! <br>
+                        <hr>
 
-                        <a href="/contacto"
-                            class="waves-effect waves-light btn " target="_blank">Contacto</a>
+                        <a href="/contacto" class="waves-effect waves-light btn " target="_blank">Contacto</a>
                     </h5>
                 </div>
             </div>
         </div>
 
+    </div> <br><br>
+    <div class="liverpoolDiv">
+
     </div>
 
 
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light headerBanner1">Nuestra capacidad abarca desde impresiones en gran
-                        formato hasta impresiones en rígidos. Siempre cumpliendo con profesionalismo y calidad a muy
-                        buen precio.
-                    </h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="/assets/images/superColors.jpg" alt="Unsplashed background img 2"></div>
-    </div>
 
-    <div class="container">
+    {{!-- <div class="container">
         <div class="section">
             <div class="row">
                 <div class="col s12 m12">
@@ -164,28 +137,34 @@
             </div>
 
         </div>
-    </div>
+    </div> --}}
     <div class="divServicios #eeeeee grey lighten-3">
         <div class="container">
             <div class="section">
                 <div class="row">
                     <div class="col s12 m12">
-                        <h1 class="titleServicios">Nuestros servicios:</h1>
+                        <blockquote>
+                            <h2 class="titleServicios">Nuestros servicios</h2>
+                        </blockquote>
                     </div>
                 </div>
             </div>
             <div class="section">
                 <div class="row">
                     <div class="col s12 m6">
+
                         <div class="card">
                             <div class="card-image">
                                 <img src="/assets/images/granFormato.jpg">
                                 <span class="card-title titleServicios1">Gran Formato</span>
-                                <a class="btn-floating halfway-fab waves-effect waves-light red"
-                                    onclick="location.href='/contacto';"><i class="material-icons">add</i></a>
+
                             </div>
                             <div class="card-content">
-                                <p>
+                                <p class="flow-text textCardContent">
+                                    Damos vida a tus ideas a lo grande, capturando la atención y destacando tu
+                                    mensaje con calidad y detalle
+                                    excepcionales.
+                                    {{!--
                                 <ul class="collection with-header">
                                     <li class="collection-item">Para la impresión de gran formato tenemos máquinas que
                                         imprimen desde 720dpi´s a 1020 dpi´s.</li>
@@ -193,7 +172,7 @@
                                         de rápida entrega.</li>
                                     <li class="collection-item">Este tipo de impresión es ideal para rotulación de
                                         camiones, espectaculares, bajo puentes, lonas, etc. </li>
-                                </ul>
+                                </ul> --}}
                                 </p>
                             </div>
                         </div>
@@ -204,24 +183,62 @@
                             <div class="card-image">
                                 <img src="/assets/images/altaRes.jpg">
                                 <span class="card-title titleServicios1">Alta Resolución</span>
-                                <a class="btn-floating halfway-fab waves-effect waves-light red"
-                                    onclick="location.href='/contacto';"><i class="material-icons">add</i></a>
+
                             </div>
                             <div class="card-content">
-                                <p>
+                                <p class="flow-text">
+                                    Eleva tu imagen con nuestra impresión en alta resolución. Cada detalle cobra vida
+                                    con calidad HD.
+                                    {{!--
                                 <ul class="collection with-header">
                                     <li class="collection-item">Para alta resolución contamos con equipo de 1440dpi´s
                                         de calidad fotográfica. Estas características nos permiten imprimir con gran
                                         definición y detalle, por lo cual cuenta con una excelente presentación. </li>
                                     <li class="collection-item">Es ideal para la impresión de fotografías, posters o
                                         impresión de punto de venta. </li>
-                                </ul>
+                                </ul> --}}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col s12 m6">
+
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/assets/images/printTres.jpg">
+                                <span class="card-title titleServicios1">Impresión 3D</span>
+
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text textCardContent">
+                                    Desde prototipos hasta piezas personalizadas, damos vida a tus ideas
+                                    tridimensionales con precisión y calidad incomparables.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/assets/images/especialPrint.jpg">
+                                <span class="card-title titleServicios1">Especializados</span>
+
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">
+                                    Eleva tu imagen con nuestra impresión en alta resolución. Cada detalle cobra vida
+                                    con calidad HD.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{!-- <div class="row">
                     <div class="col s12 m6">
                         <div class="card">
                             <div class="card-image">
@@ -303,7 +320,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
@@ -315,7 +332,10 @@
             <div class="section">
                 <div class="row">
                     <div class="col s12 m12">
-                        <h1 class="titleServicios">Impresión en gran formato:</h1>
+                        <blockquote>
+                            <h2 class="titleServicios">Presenta tu marca al mundo</h2>
+                        </blockquote>
+
                     </div>
                 </div>
             </div>
@@ -324,18 +344,25 @@
                     <div class="col s12 m12">
                         <div class="card">
                             <div class="card-image">
-                                <img src="/assets/images/granforEspresso.jpeg" class="divServicios2">
+                                <img src="/assets/images/laComer.jpg" class="divServicios2">
                                 <span class="card-title titleServicios1">Gran Formato</span>
-                                <a class="btn-floating halfway-fab waves-effect waves-light red"
-                                    onclick="location.href='/contacto';"><i class="material-icons">add</i></a>
+
                             </div>
                             <div class="card-content">
                                 <p>
                                 <ul class="collection with-header">
-                                    <li class="collection-item">Lona Front</li>
-                                    <li class="collection-item">Ya sea brillante o mate, de 10oz, 13oz o 1000x100, es
-                                        muy útil tanto en interiores como en exteriores, para la impresión de
-                                        carteleras, banners y todo tipo de gráficos.</li>
+                                    {{!-- <li class="collection-item">Lona Front</li> --}}
+                                    <li class="collection-item flow-text">
+                                        <h5>
+                                            Descubre la magia de comunicar tu empresa al mundo. Desde vibrantes carteles
+                                            hasta cautivadores banners, nuestra tecnología de vanguardia captura la
+                                            esencia
+                                            de tus proyectos con una calidad visual excepcional. Transforma tus visiones
+                                            en
+                                            impactantes obras visuales que dominan el espacio y captan la atención en
+                                            cualquier entorno.
+                                        </h5>
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
@@ -347,28 +374,53 @@
         </div>
 
     </div>
-    <div class="teal">
+    <div class="gray  #eeeeee grey lighten-3">
         <div class="container">
             <div class="section">
                 <div class="row">
                     <div class="col s12 m12">
-                        <h1 class="titleEspecialistas centered white-text">Haz tu pedido</h1>
+                        <blockquote>
+                            <h2 class="titleEspecialistas centered black-text">Contacta a nuestro equipo</h2>
+                        </blockquote>
                     </div>
                 </div>
             </div>
             <div class="section">
                 <div class="row">
                     <div class="col s12 m6">
-                        <div class="carousel carrru">
-                            <a class="carousel-item" href="#one!"><img src="/assets/images/sieteLunasCarro.jpg"></a>
-                            <a class="carousel-item" href="#two!"><img src="/assets/images/adAmarillo.jpg"></a>
-                            <a class="carousel-item" href="#three!"><img src="/assets/images/adRosa.jpg"></a>
-                            <a class="carousel-item" href="#four!"><img src="/assets/images/aeroAd.jpg"></a>
+                        <div class="slider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="/assets/images/sieteLunasCarro.jpg"> <!-- random image -->
+                                    <div class="caption right-align">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/adAmarillo.jpg"> <!-- random image -->
+                                    <div class="caption left-align">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/adRosa.jpg"> <!-- random image -->
+                                    <div class="caption right-align">
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="/assets/images/aeroAd.jpg"> <!-- random image -->
+                                    <div class="caption center-align">
+
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
+
                     </div>
                     <div class="col s12 m6">
-                        <h4 class="white-text">No pierdas la oportunidad de dar visibilidad a tu negocio</h4>
-                        <a class="waves-effect waves-light btn-large"
+                        <h4 class="black-text">No pierdas la oportunidad de dar visibilidad a tu negocio</h4>
+                        <a class="waves-effect waves-light btn-large greys"
                             onclick="location.href='/contacto';">Contáctanos</a>
 
                     </div>
@@ -376,31 +428,5 @@
             </div>
         </div>
     </div>
-    <div class="infoDivInicio">
-        <div class="container">
-            <div class="section">
-                <div class="row">
-                    <div class="col s12 m12">
-                        <h1 class="titleServicios">Pedidos Especiales</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m12">
-                    <div class="card #eeeeee grey lighten-3">
-                        <div class="card-content">
-                            <span class="card-title">Información adicional</span>
-                            <p>Algunos clientes también nos realizan pedidos especiales porque saben que jamás nos
-                                limitamos. <br>
-                                Móviles publicitarios, islas en centros comerciales, vinil adherible para autos,
-                                bicicletas en ciudad y mucho más. </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="/contacto" class="orange-text">Más información</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </div>

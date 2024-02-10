@@ -28,6 +28,12 @@ p {
 .sidenav-trigger {
   color: #26a69a;
 }
+.black{
+  background-color: black !important;
+}
+.navLinkNew{
+  color: white;
+}
 
 .parallax-container {
   min-height: 380px;
@@ -41,9 +47,9 @@ p {
 .imageLogo{
   height: 10rem;
 }
-.navDiv{
+/* .navDiv{
   height: 10rem;
-}
+} */
 .titleServicios{
   text-align: center;
 }
@@ -94,13 +100,35 @@ p {
 .animacionDiv{
   margin-top: 3%;
 }
-/* .inicioCont{
-  background-color: rgba(132, 14, 161, 0.705);
-  border-radius: 8px;
-  width: 50%;
-  margin-top: 2%;
-} */
+.idmBanner{
+  height: 46rem;
+  background-image: url("/assets/images/bannerIdm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-bottom: -2%; */
+}
+.liverpoolDiv{
+  height: 40rem;
+  background-image: url("/assets/images/liverpool.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.negroFormato{
+  background-color: gray;
+}
+.greys{
+  background-color: grey;
+}
 @media only screen and (max-width : 992px) {
+  .liverpoolDiv{
+    height: 15rem;
+    
+  }
+  .idmBanner{
+    height: 24rem;
+  }
   .parallax-container .section {
     position: absolute;
     top: 40%;

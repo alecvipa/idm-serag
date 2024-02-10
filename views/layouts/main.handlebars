@@ -44,16 +44,17 @@
 
 <body class="fontGlobal">
 
-    <nav class="white navDiv" role="navigation">
+    <nav class="black navDiv" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="/" class="brand-logo"><img src="/assets/images/logoIdm.png" alt="logoIdm"
-                    class="imageLogo"></a>
+
+            {{!-- <a id="logo-container" href="/" class="brand-logo"><img src="/assets/images/logoIdm.png" alt="logoIdm"
+                    class="imageLogo"></a> --}}
             <ul class="right hide-on-med-and-down">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/nosotros">Nosotros</a></li>
-                <li><a href="/animacion">Animación</a></li>
-                <li><a href="/contacto">Contacto</a></li>
-                <li><a href="/privacidad">Aviso de privacidad</a></li>
+                <li><a href="/" class="navLinkNew">Inicio</a></li>
+                <li><a href="/nosotros" class="navLinkNew">Nosotros</a></li>
+                <li><a href="/animacion" class="navLinkNew">Animación</a></li>
+                <li><a href="/contacto" class="navLinkNew">Contacto</a></li>
+                <li><a href="/privacidad" class="navLinkNew">Aviso de privacidad</a></li>
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
@@ -63,9 +64,11 @@
                 <li><a href="/contacto">Contacto</a></li>
                 <li><a href="/privacidad">Aviso de privacidad</a></li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons navLinkNew">menu</i></a>
         </div>
+        
     </nav>
+
 
     <div class="bodyPrincipal">
 
@@ -86,7 +89,7 @@
         {{{body}}}
     </div>
 
-    <footer class="page-footer teal">
+    <footer class="page-footer black">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
