@@ -14,6 +14,9 @@ nav .brand-logo {
   font-family: 'Lato', sans-serif !important;
 
 }
+.textTitleNosotros{
+  font-size: 2rem;
+}
 .centered{
   text-align: center;
 }
@@ -115,6 +118,14 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cityMarketDiv{
+  height: 40rem;
+  background-image: url("/assets/images/cityMarket.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 .negroFormato{
   background-color: gray;
 }
@@ -122,6 +133,10 @@ p {
   background-color: grey;
 }
 @media only screen and (max-width : 992px) {
+  .cityMarketDiv{
+    height: 15rem;
+  
+  }
   .liverpoolDiv{
     height: 15rem;
     
