@@ -58,7 +58,7 @@ app.post("/ajax/email", function (request, response) {
     });
 
     var textBody = `FROM: ${request.body.name}; EMAIL: ${request.body.email}; MESSAGE: ${request.body.message}`;
-    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p> <p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Mensaje:${request.body.message} </p>`;
+    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p> <p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Number:${request.body.number} </p><p>Mensaje:${request.body.message} </p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
         to: 'contacto@idm-serag.com',

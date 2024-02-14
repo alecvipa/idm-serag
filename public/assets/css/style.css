@@ -132,6 +132,21 @@ p {
 .greys{
   background-color: grey;
 }
+.formulario{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+@media only screen and (min-width : 993px) {
+  /* .imageTeam{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+}
+
+
 @media only screen and (max-width : 992px) {
   .cityMarketDiv{
     height: 15rem;
@@ -170,6 +185,7 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+
   #index-banner .section {
     top: 0;
   }
